@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Lore of the Tokels</title>
+  </head>
+  <body style="text-align: center; background-color: #231F20;">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/lore.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/lore.data",
+        frameworkUrl: "Build/lore.framework.js",
+        codeUrl: "Build/lore.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Lore",
+        productName: "Lore of the Tokels",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>

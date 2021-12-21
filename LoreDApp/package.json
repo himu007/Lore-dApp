@@ -1,0 +1,14 @@
+{
+  "name": "loredapp",
+  "version": "0.0.1",
+  "description": "The DApp for Lore of the Tokels",
+  "main": "dapp.js",
+  "scripts": {
+    "lore": "electron ."
+  },
+  "author": "Samantha Loeve",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  }
+}
