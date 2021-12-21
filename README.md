@@ -20,7 +20,7 @@ Hit **Ctrl-R** to force a reload of the game.
 
 ## Install
 Requires minimum NodeJS 16 and NPM 7 to run.
-This repository does not contain the game binary.
+This repository does not contain the game assemblies.
 The binary installer will be available as a release.
 
 ### WINDOWS
