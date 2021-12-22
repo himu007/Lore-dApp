@@ -2,7 +2,7 @@
 
 **Lore of the Tokels** is a fantasy rogue-like game, where you create your character, just sworn in as a Tokelina Knight and travel through the Lands of Nonfungila.
 
-## Gameplay
+### Gameplay
 
 Use the :arrow_left: :arrow_up: :arrow_right:  keys to move your character
 Use **A** to jump forward in the direction you are facing
@@ -18,21 +18,21 @@ To interact with NPC's, just bump into them.
 ==============
 Hit **Ctrl-R** to force a reload of the game.
 
-## Install
+### Install
 Requires minimum NodeJS 16 and NPM 7 to run.
 This repository does not contain the game assemblies.
 The binary installer will be available as a release.
 
-### WINDOWS
-C:\YourDownloadFolder\> lore-prepare.bat
-### Mac / Linux
-~/yourDownloadFolder $ chmod +x lore-prepare.sh
-~/yourDownloadFolder $ ./lore-prepare.sh
+##### WINDOWS
+```C:\YourDownloadFolder\> lore-prepare.bat```
+##### Mac / Linux
+```~/yourDownloadFolder $ chmod +x lore-prepare.sh```
+```~/yourDownloadFolder $ ./lore-prepare.sh```
 
-## Play
+### Play
 
-### WINDOWS
-C:\YourDownloadFolder\> lore.bat
-### Mac / Linux
-~/yourDownloadFolder $ chmod +x lore.sh
-~/yourDownloadFolder $ ./lore.sh
+##### WINDOWS
+```C:\YourDownloadFolder\> lore.bat```
+##### Mac / Linux
+```~/yourDownloadFolder $ chmod +x lore.sh```
+```~/yourDownloadFolder $ ./lore.sh```
